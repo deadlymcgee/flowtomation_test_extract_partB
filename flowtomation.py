@@ -2,14 +2,6 @@
 
 import sys
 import os
-
-content_root = "/".join(os.path.dirname(os.path.realpath(__file__))
-                        .split("/")[:-1])
-sys.path.insert(
-    0,
-    content_root
-)
-
 import json
 import subprocess
 import shlex
@@ -17,8 +9,8 @@ from collections import OrderedDict
 import time
 import datetime
 import enum
-from partB import utilities
-from partB import validate_time
+import utilities
+import validate_time
 
 
 class Direction(enum.Enum):

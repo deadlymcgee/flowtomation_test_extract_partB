@@ -5,13 +5,13 @@ import json
 import os
 
 content_root = "/".join(os.path.dirname(os.path.realpath(__file__))
-                        .split("/")[:-3])
+                        .split("/")[:-2])
 sys.path.insert(
     0,
     content_root
 )
 
-from partB import custom_classes_part_2
+import custom_classes_part_2
 
 data = {
     "data": "06/06/2018 10:32:10"

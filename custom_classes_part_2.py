@@ -10,7 +10,7 @@ sys.path.insert(
     content_root
 )
 python_path = sys.path
-from partB import validate_time
+import validate_time
 import json
 
 

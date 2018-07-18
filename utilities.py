@@ -1,13 +1,11 @@
+import datetime
+import json
 import logging
 import logging.handlers
-import sys
-import os
-import json
-from collections import OrderedDict
-import time
-import datetime
 import numbers
-
+import os
+import time
+from collections import OrderedDict
 
 required_keys = {
         "program_configuration_1": [
